@@ -1,0 +1,8 @@
+@import "tailwindcss";
+.names div{
+    @apply border w-100 h-20 font-semibold text-2xl text-center
+     border-violet-400 rounded-md pt-2 bg-gradient-to-t from-gray-600 to-white bg-clip-text text-transparent
+}
+.names p{
+    @apply font-light text-lg text-amber-100
+}
